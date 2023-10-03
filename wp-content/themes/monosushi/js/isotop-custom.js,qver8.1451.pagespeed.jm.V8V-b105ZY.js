@@ -1,0 +1,1 @@
+jQuery(function($){'use strict';$('#shop-ajax-wrapper').each(function(){const $this=$(this),$filtersSelector=$this.find('.filters-list li');$this.find('li[data-filter]').isotope({itemSelector:'.filters-list li',layoutMode:'fitRows'});$filtersSelector.on('click',function(){$this.find('.isotop-row').isotope({filter:$(this).attr('data-filter')});});});});
