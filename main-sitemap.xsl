@@ -11,10 +11,10 @@
 			<head>
 				<xsl:choose>
 					<xsl:when test="kml:kml">
-						<title>Розташування Sitemap - Monosushi</title>
+						<title>Розташування Sitemap - PrivatSushi</title>
 					</xsl:when>
 					<xsl:otherwise>
-						<title>XML Sitemap - Monosushi</title>
+						<title>XML Sitemap - PrivatSushi</title>
 					</xsl:otherwise>
 				</xsl:choose>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -118,7 +118,7 @@
 								This KML file contains <xsl:value-of select="count(kml:kml/kml:Document/kml:Folder/kml:Placemark)"/> Locations.
 							</p>
 							<p class="expl">
-								<a href="https://monosushi.com.ua/sitemap_index.xml">&#8592; Sitemap Index</a>							</p>
+								<a href="https://privatsushi.shop/sitemap_index.xml">&#8592; Sitemap Index</a>							</p>
 							<table id="sitemap" cellpadding="3">
 								<thead>
 									<tr>
@@ -213,7 +213,7 @@
 									Цей XML Sitemap містить <strong><xsl:value-of select="count(sitemap:urlset/sitemap:url)"/></strong> URL-адрес.								</p>
 
 								<p class="expl">
-									<a href="https://monosushi.com.ua/sitemap_index.xml">&#8592; Sitemap Index</a>								</p>
+									<a href="https://privatsushi.shop/sitemap_index.xml">&#8592; Sitemap Index</a>								</p>
 
 								<table id="sitemap" cellpadding="3">
 
